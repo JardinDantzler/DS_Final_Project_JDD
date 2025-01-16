@@ -5,7 +5,6 @@ A composition of my work throughout the Data Science Senior Capstone
 
 
 
-
 DS 450-01
 Predictive Analytics Project Proposal
 Project Title: Predicting the Sale Price of Used BMW Cars
