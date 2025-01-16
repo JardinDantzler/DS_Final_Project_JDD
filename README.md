@@ -44,3 +44,34 @@ References
 1.	Kaggle BMW Pricing Challenge Dataset: https://www.kaggle.com/danielkyrka/bmw-pricing-challenge
 2.	James, G., Witten, D., Hastie, T., & Tibshirani, R. (2013). An Introduction to Statistical Learning. Springer.
 3.	Pedregosa, F., Varoquaux, G., Gramfort, A., et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+
+
+In 2019 alone, about 41 million used cars were sold in the US. Evaluation of the value of a used car is one of the primary challenges faced by the automotive companies and dealers around the world. Apart from the physical aspects like the color, model, transmission type etc., it is also a derivation of other factors like prestige value and perception of the quality of the maker.
+
+In this project, I try to model the price, using the data analytic method of Multiple Linear Regression. I'll try to find out which aspects of a BMW car affect its price and which do not and we try to gauge how influential each factor is. In the end, I wish to formulate and test the accuracy of model that can predict the price of the next car based on the relevant factors discovered during analysis.
+
+Describe the data set 
+Response - The dataset consists of the used sale prices of certain BMW car. It has roughly 5000 rows and 18 columns.
+
+The first column is the maker of the car, as this data relates to only BMW; all the cars are of make BMW.
+
+The second column relates to the model name of the car assigned by BMW. There are 75 unique models in in the dataset
+
+Column 3 and 4 relate to the total mileage and Engine power of each car respectively.
+
+Column 5 denotes the registration date of the car when the first owner bought it.
+
+Column 6 provides the information regarding the fuel used in each car. There are four different types of fuels used in the cars of this dataset, namely - Diesel, Petrol, Hybrid Petrol and Electro. For this analysis, we are going to only focus on Diesel and Petrol cars as the no. of cars who use Hybrid Petrol and Electro are minute in comparison with Petrol and Diesel cars and hence treated like outliers and removed from the dataset.
+
+Column 7 states the color of the car and Column 8 the type. There are a total of ten different colored cars in the dataset and of eight different types namely - Convertible, Coupe, Estate, Hatchback, Sedan, Subcompact, SUV and Van.
+
+Columns nine to sixteen provide the information regarding the presence of (or lack of) certain features in each car. The data provider does not provide the information regarding description of those features.
+
+Column 17 is the final sale price of the car. This is the most important variable for us in the data. We will try to model this variable based on other variables.
+
+Column 18 is the final date on which the car was sold to the second owner.
+
+The original dataset can be found at - https://www.kaggle.com/danielkyrka/bmw-pricing-challenge
+
+Research Question 
+Can we quantify the physical and other features of pre-owned vehicles to generate a model of the price of a car which can we used to predict the price of the other similar natured cars?
