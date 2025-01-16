@@ -10,7 +10,17 @@ Project Title: Predicting the Sale Price of Used BMW Cars
 Jardin Dantzler
 jdantzler@bellarmine.edu
 January 16th, 2025
- 
+
+
+ Key Questions 
+
+How do different evaluation metrics (MAE, RMSE, R-squared) compare when assessing the predictive accuracy of machine learning models for this dataset?
+
+How might inaccuracies in the model disproportionately affect certain segments of the market, such as buyers with limited knowledge of car pricing?
+
+How does feature scaling and preprocessing impact the performance of predictive models in estimating sale prices?
+
+Can we quantify the physical and other features of pre-owned vehicles to generate a model of the price of a car which can we used to predict the price of the other similar natured cars?
  
 Executive Summary
 The used car market is an essential segment of the automotive industry, with millions of vehicles sold annually. Determining the price of a used car is a multifaceted challenge, involving physical features, brand perception, and market trends. This project aims to develop a predictive model to estimate the sale price of pre-owned BMW cars using a dataset containing approximately 5,000 entries and 18 variables. By analyzing factors such as mileage, engine power, color, and car type, we will identify the most influential features affecting car prices. Using advanced machine learning models such as Decision Trees, Random Forests, and Gradient Boosting Machines, we will compare their performance and accuracy in predicting prices. This project will provide valuable insights for car dealerships, buyers, and sellers to make informed decisions in the used car market.
@@ -72,6 +82,3 @@ Column 17 is the final sale price of the car. This is the most important variabl
 Column 18 is the final date on which the car was sold to the second owner.
 
 The original dataset can be found at - https://www.kaggle.com/danielkyrka/bmw-pricing-challenge
-
-Research Question 
-Can we quantify the physical and other features of pre-owned vehicles to generate a model of the price of a car which can we used to predict the price of the other similar natured cars?
